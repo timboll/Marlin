@@ -108,8 +108,8 @@
 #if ENABLED(M5_EXTENDER)
   #define X2_STOP_PIN                       PI4   // M5 M1_STOP
   #define Y2_STOP_PIN                       PF12  // M5 M5_STOP
-  #define Z2_STOP_PIN                       PF4   // M5 M2_STOP
-  #define Z3_STOP_PIN                       PI7   // M5 M4_STOP
+  #define I_STOP_PIN                       PF4   // M5 M2_STOP
+  #define J_STOP_PIN                       PI7   // M5 M4_STOP
   #define Z4_STOP_PIN                       PF6   // M5 M3_STOP
 #endif
 
@@ -333,8 +333,8 @@
   #define FAN3_PIN                          PI5   // M5 FAN1
   #define FAN4_PIN                          PE9   // M5 FAN2
   #define FAN5_PIN                          PE11  // M5 FAN3
-  //#define FAN6_PIN                        PC9   // M5 FAN4
-  //#define FAN7_PIN                        PE14  // M5 FAN5
+  #define FAN6_PIN                        PC9   // M5 FAN4
+  // #define FAN7_PIN                        PE14  // M5 FAN5
 #endif
 
 #ifndef SDCARD_CONNECTION

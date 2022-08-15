@@ -133,7 +133,7 @@ namespace Language_en {
     LSTR MSG_PREHEAT_M_BEDONLY            = _UxGT("Preheat $ Bed");
     LSTR MSG_PREHEAT_M_SETTINGS           = _UxGT("Preheat $ Conf");
   #endif
-  LSTR MSG_PREHEAT_CUSTOM                 = _UxGT("Preheat Custom");
+  LSTR MSG_PREHEAT_CUSTOM                 = _UxGT("Preheat");
   LSTR MSG_COOLDOWN                       = _UxGT("Cooldown");
 
   LSTR MSG_CUTTER_FREQUENCY               = _UxGT("Frequency");
