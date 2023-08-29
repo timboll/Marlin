@@ -25,6 +25,6 @@
 
 #include "pins_BTT_SKR_MINI_E3_V2_0.h" // ... BTT_SKR_MINI_E3_common
 
-#define FAN_PIN            PC6
+#define FAN0_PIN            PC6
 #define FAN1_PIN           PC7
 #define CONTROLLER_FAN_PIN PA8
