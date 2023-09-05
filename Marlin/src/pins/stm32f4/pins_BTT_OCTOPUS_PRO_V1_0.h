@@ -42,3 +42,6 @@
 #endif
 
 #include "pins_BTT_OCTOPUS_V1_common.h"
+
+#define HEATER_3_PIN                        -1  // Heater3 repurposed as bed pin for mosfet
+#define HEATER_BED_PIN                      PB11  // Hotbed
